@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+streamlit
+plotly==5.9.0
+streamlit-lottie
+scikit-learn
+joblib
