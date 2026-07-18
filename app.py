@@ -20,7 +20,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="main-header">🩺 ระบบทำนายความเสี่ยงโรคเบาหวาน (AI)</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">🩺 ระบบทำนายความเสี่ยงโรคเบาหวาน </p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">ประเมินสุขภาพเบื้องต้นด้วยเทคโนโลยี Machine Learning (SVM Model)</p>', unsafe_allow_html=True)
 
 # 1. โหลดโมเดล
@@ -130,7 +130,7 @@ if predict_btn:
 st.markdown("---")
 st.markdown("""
     <div style="text-align: center; color: #888; font-size: 0.9rem;">
-        ⚠️ <b>ข้อจำกัดความรับผิดชอบ:</b> ระบบนี้เป็นการทำนายเบื้องต้นด้วย AI เท่านั้น ไม่สามารถทดแทนการวินิจฉัยจากแพทย์ผู้เชี่ยวชาญได้ <br>
+        ⚠️ <b>ข้อจำกัดความรับผิดชอบ:</b> ระบบนี้เป็นการทำนายเบื้องต้นเท่านั้น ไม่สามารถทดแทนการวินิจฉัยจากแพทย์ผู้เชี่ยวชาญได้ <br>
         หากมีอาการผิดปกติ หรือค่าน้ำตาลเกิน 200 mg/dL กรุณาปรึกษาแพทย์ทันที 🏥
     </div>
 """, unsafe_allow_html=True)
